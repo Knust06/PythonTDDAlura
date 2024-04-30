@@ -41,3 +41,9 @@ class Funcionario:
 
     def __str__(self):
         return f'Funcionario({self._nome}, {self._data_nascimento}, {self._salario})'
+
+    #pytest --cov Para ver a cobertura dos testes
+    #pytest --cov=tests/            para ver a cobertura de testes em um lugar especifico
+    #pytest -v -m calcular_bonus -v        para ser verboso e -m para marcar que quero usar um marcador
+    #pytest --cov=tests/ --cov-report term-missing    mostra a linha que esta faltando os testes
+    #pytest --cov=bytebank --cov-report term-missing  mostra a linha que esta faltando os testes
