@@ -47,3 +47,4 @@ class Funcionario:
     #pytest -v -m calcular_bonus -v        para ser verboso e -m para marcar que quero usar um marcador
     #pytest --cov=tests/ --cov-report term-missing    mostra a linha que esta faltando os testes
     #pytest --cov=bytebank --cov-report term-missing  mostra a linha que esta faltando os testes
+    #pytest --cov=bytebank --cov-report html      Criando pagina web para ver os testes
